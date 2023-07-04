@@ -1,7 +1,8 @@
 <?php
 
 //Teste de lançamento de erros
-function errorDetails(Throwable $erro) {
+function errorDetails(Throwable $erro) :void
+{
     echo 'Mensagem do erro: ' . $erro->getMessage() . PHP_EOL;
     echo 'Linha do erro: ' . $erro->getLine() . PHP_EOL;
     echo 'Histórico do erro: ' . $erro->getTraceAsString() . PHP_EOL;
@@ -12,7 +13,8 @@ function errorDetails(Throwable $erro) {
 /**
  * @throws RuntimeException
  */
-function funcao() {
+function funcao() :void
+{
     echo 'Função chamada' . PHP_EOL;
     try {
         $erro = new RuntimeException();

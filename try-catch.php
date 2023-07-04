@@ -1,13 +1,15 @@
 <?php
 
 //Teste de captura de erros/exceções
-function errorDetails(Exception | Error $error) {
+function errorDetails(Exception | Error $error) :void
+{
     echo $error->getMessage() . PHP_EOL;
     echo $error->getLine() . PHP_EOL;
     echo $error->getTraceAsString() . PHP_EOL;
 }
 
-function funcao1($in) {
+function funcao1($in) :void
+{
     echo 'Início da função 1' . PHP_EOL;
     try {
         funcao2($in);
@@ -21,7 +23,8 @@ function funcao1($in) {
     echo 'Fim da função 1' . PHP_EOL;
 }
 
-function funcao2($in) {
+function funcao2($in) :void
+{
     echo 'Início da função 2' . PHP_EOL;
     try {
         echo intdiv(10, $in) . PHP_EOL;

@@ -1,0 +1,16 @@
+[29-Jun-2023 16:41:31 UTC] PHP Warning:  Undefined variable $var in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 9
+[29-Jun-2023 16:41:31 UTC] PHP Warning:  Undefined variable $array in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 10
+[29-Jun-2023 16:41:31 UTC] PHP Warning:  Trying to access array offset on value of type null in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 10
+[29-Jun-2023 16:41:31 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CONSTANT" in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php:11
+Stack trace:
+#0 {main}
+  thrown in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 11
+[30-Jun-2023 17:35:42 UTC] PHP Warning:  Undefined variable $var in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 9
+[30-Jun-2023 17:35:42 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CONSTANT" in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php:11
+Stack trace:
+#0 {main}
+  thrown in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 11
+[30-Jun-2023 18:34:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CONSTANT" in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php:18
+Stack trace:
+#0 {main}
+  thrown in H:\Documentos\Workspace\Phpstorm\Projeto-Alura\PHP-ERROS-EXCEÇÕES\error-reporting.php on line 18
